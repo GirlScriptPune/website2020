@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #00000;
+  color: #fff;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #000;
+  background: #fff;
   color: #000;
   border-radius: 5px;
   padding: 10px 30px 11px 30px;
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #000;
+  background: #fff;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #000;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -464,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
-  background: #000;
+  background: #fff;
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box .title a {
-  color: #000;
+  color: #fff;
   transition: 0.3s;
 }
 
