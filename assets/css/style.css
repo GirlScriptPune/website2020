@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #fff;
+  background: #FC6600;
   z-index: 997;
   padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
@@ -265,8 +265,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #2487ce;
-  color: #fff;
+  background: #000;
+  color: #000;
   border-radius: 5px;
   padding: 10px 30px 11px 30px;
   white-space: nowrap;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #000;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #2487ce;
+  color: #000;
   text-decoration: none;
 }
 
