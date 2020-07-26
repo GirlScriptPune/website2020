@@ -421,6 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .container {
   padding-top: 80px;
+  background: #000;
 }
 
 #hero h1 {
@@ -428,12 +429,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #000;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #5e5e5e;
+  color: #FC6600;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
