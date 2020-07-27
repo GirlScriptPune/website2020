@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   background: #FC6600;
   z-index: 997;
-  padding: 15px 0;
+  padding: 0px 0;
   border-bottom: 1px solid #e6f2fb;
 }
 
@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
+ 
   max-height: 85px;
 }
 
@@ -153,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
   }
   #header {
-    padding: 25px 0;
+    padding: 0px 0;
   }
 }
 
@@ -182,12 +183,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 600;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #2487ce;
+  color: #0d0dae;
 }
 
 .nav-menu .drop-down ul {
