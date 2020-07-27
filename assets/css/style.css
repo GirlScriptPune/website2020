@@ -10,11 +10,11 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000;
 }
 
 a {
-  color: #2487ce;
+  color: #000;
 }
 
 a:hover {
@@ -24,11 +24,12 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  color: #fff
 }
 
 /*--------------------------------------------------------------
 # Back to top button
---------------------------------------------------------------*/
+-------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   display: none;
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #2487ce;
+  background: #000;
   color: #fff;
   transition: all 0.4s;
 }
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #fff;
+  background: #FC6600;
   z-index: 997;
   padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
@@ -144,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 85px;
 }
 
 @media (max-width: 992px) {
@@ -176,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #124265;
+  color: #fff;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -267,8 +268,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #2487ce;
-  color: #fff;
+  background: #fff;
+  color: #000;
   border-radius: 5px;
   padding: 10px 30px 11px 30px;
   white-space: nowrap;
@@ -343,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #2487ce;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -640,7 +641,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 90vh;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background:url("../img/hero2-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -650,7 +651,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -660,6 +661,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .container {
   padding-top: 80px;
+  background: #000;
 }
 
 #hero h1 {
@@ -667,12 +669,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 500;
   line-height: 72px;
-  color: #124265;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #5e5e5e;
+  color: #FC6600;
   margin: 10px 0 0 0;
   font-size: 22px;
   font-weight: 500;
@@ -704,7 +706,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: #FC6600;
   box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -718,7 +720,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box .title a {
-  color: #124265;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -735,7 +737,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #000;
 }
 
 #hero .icon-box:hover {
@@ -903,13 +905,13 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  color: #FC6600;
 }
 
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
