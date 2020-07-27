@@ -152,6 +152,9 @@ h1, h2, h3, h4, h5, h6 {
   #header .logo {
     font-size: 28px;
   }
+  #header {
+    padding: 25px 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -344,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #fff;
+  color: rgb(218, 101, 12);
   text-decoration: none;
 }
 
@@ -645,10 +648,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
 }
-#hero .team-hero .team-inner-hero img{
-  height: 200px;
-  width: 300px;
-}
+
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
@@ -767,6 +767,137 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+
+/*--------------------------------------------------------------
+# Team Hero Section
+--------------------------------------------------------------*/
+#team-hero {
+  position: relative;
+ 
+}
+#team-hero .team-hero .team-inner-hero img{
+  height: 200px;
+  width: 300px;
+}
+#team-hero:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#team-hero .container {
+  padding-top: 10px;
+  background: #000;
+}
+
+#team-hero h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 72px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#team-hero h2 {
+  color: #1c0b7b;
+  margin: 0px 0 0 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#team-hero .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #2487ce;
+}
+
+#team-hero .btn-get-started:hover {
+  background: #3194db;
+}
+
+#team-hero .icon-boxes {
+  margin-top: 100px;
+}
+
+#team-hero .icon-box {
+  padding: 50px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #FC6600;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+#team-hero .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#team-hero .icon-box .title a {
+  color: #000;
+  transition: 0.3s;
+}
+
+#team-hero .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+#team-hero .icon-box .icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 36px;
+  line-height: 1;
+  color: #000;
+}
+
+#team-hero .icon-box:hover {
+  transform: scale(1.08);
+}
+
+#team-hero .icon-box:hover .title a {
+  color: #2487ce;
+}
+
+@media (min-width: 1024px) {
+  #team-hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 992px), (max-height: 500) {
+  #team-hero {
+    height: auto;
+  }
+  #team-hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #team-hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
 /*--------------------------------------------------------------
 # wave
 --------------------------------------------------------------*/
@@ -793,7 +924,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
-#hero .team-hero .team-inner-hero h1 {
+#team-hero .team-hero .team-inner-hero h1 {
   margin: 0;
   font-size: 56px;
   font-weight: 500;
@@ -801,7 +932,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #eff2f5;
   font-family: "Poppins", sans-serif;
 }
-#hero .team-hero .flex {
+#team-hero .team-hero .flex {
   /*Flexbox for containers*/
   display: contents;
   justify-content: center;
@@ -854,19 +985,20 @@ h1, h2, h3, h4, h5, h6 {
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .waves {
+    padding-top: 0px;
     height: 40px;
     min-height: 40px;
   }
   .content {
     height: 30vh;
   }
- #hero .team-hero .team-inner-hero h1 {
+ #team-hero .team-hero .team-inner-hero h1 {
     font-size: 32px;
   }
-  #hero .team-hero .team-inner-hero h2 {
+  #team-hero .team-hero .team-inner-hero h2 {
     font-size: 15px;
   }
-  #hero .team-hero .team-inner-hero img {
+  #team-hero .team-hero .team-inner-hero img {
     width: 120px;
     height: 120px;
   }
