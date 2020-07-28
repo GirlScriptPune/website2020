@@ -1988,7 +1988,8 @@ section {
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background: #fff;
+    background: #2487ce;
+    float: right;
       }
 .text-center {
     text-align: center!important;
