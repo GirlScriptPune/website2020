@@ -1989,8 +1989,7 @@ section {
     transition: 0.5s;
     color: #fff;
     background: #fff;
-    float:right;
-  }
+      }
 .text-center {
     text-align: center!important;
 }
