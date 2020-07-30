@@ -1987,6 +1987,7 @@ section {
   height: 50px;
   border: 4px solid #2487ce;
   font-family: "Montserrat", sans-serif;
+  color:#fff;
   font-size: 20px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
