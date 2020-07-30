@@ -1983,7 +1983,7 @@ section {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
-    display: inline-block;
+    display: flex;
     padding: 10px 30px;
     border-radius: 4px;
     transition: 0.5s;
