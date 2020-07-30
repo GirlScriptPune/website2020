@@ -1983,10 +1983,10 @@ section {
 }
 
 .join-us {
-  width: 300px;
+  width: 170px;
   height: 50px;
   border: 4px solid #2487ce;
-  font-family: 'Cinzel', serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
