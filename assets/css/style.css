@@ -1997,6 +1997,7 @@ section {
   z-index: 0;
   transition: 1s;
   float: right;
+  margin: 5px;
 }
 
 .join-us::before, .join-us::after {
