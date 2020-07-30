@@ -1994,6 +1994,76 @@ section {
 .text-center {
     text-align: center!important;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-us {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #333;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: 1s;
+}
+
+.join-us::before, .join-us::after {
+  position: absolute;
+  background: #eee;
+  z-index: -1;
+  transition: 1s;
+  content: '';
+}
+
+.join-us::before {
+  height: 50px;
+  width: 130px;
+}
+
+.join-us::after {
+  width: 150px;
+  height: 30px;
+}
+
+.join-us {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.join-us:hover::before {
+  width: 0px;
+  background: #fff;
+}
+
+.join-us:hover::after {
+  height: 0px;
+  background: #fff;
+}
+
+.join-us:hover {
+  background: #fff;
+}
 
 /*--------------------------------------------------------------
 # Contact
