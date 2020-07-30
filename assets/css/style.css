@@ -2002,7 +2002,7 @@ section {
 
 .join-us::before, .join-us::after {
   position: absolute;
-  background: #fff;
+  background: #2487ce;
   z-index: -1;
   transition: 1s;
   content: '';
@@ -2029,7 +2029,7 @@ section {
 
 .join-us:hover::before {
   width: 0px;
-  background: #fff;
+  background: #2487ce;
 }
 
 .join-us:hover::after {
@@ -2044,7 +2044,7 @@ section {
 	--background: #ff9900;
 	--primary: #ff9900;
 	--secondary: #fff;
-	--third: #ff9933;
+	--third: #ff9900;
 }
 
 .joincontainer {
