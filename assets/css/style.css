@@ -678,7 +678,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #FC6600;
-  -webkit-transition: all 4s ease-in-out;
+  transition: all 0.3s ease-in-out;
   margin: 10px 0 0 0;
   font-size: 22px;
   font-weight: 500;
