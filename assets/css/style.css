@@ -670,7 +670,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0;
   font-size: 56px;
-  margin bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 500;
   line-height: 72px;
   color: #F200DE;
@@ -1986,12 +1986,42 @@ section {
     text-align: center!important;
 }
 
-.join-us {
+#join_us{
+  padding: 30px;
+}
+
+.join-us{
+  height: 100;
+  width: 200;
+  background-color: #11dbcf;
+  padding: 30px;
+}
+
+.joincontainer {
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+}
+
+.btn-md{
+  border-width: large;
+  border-radius: 0;
+  padding: .1rem 1.8rem;
+  font-size: 1.1rem;
+  margin: 20px;
+}
+.btn-md:hover{
+  
+}
+
+
+/*.join-us {
   width: 170px;
   height: 50px;
-  border: 4px solid #2487ce;
+   border: 4px solid #2487ce; 
   font-family: "Montserrat", sans-serif;
-  color:#fff;
+   color:#fff; 
   font-size: 20px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -2052,14 +2082,9 @@ section {
 	--third: #ff9900;
 }
 
-.joincontainer {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-}
 
-.joinshape {
+
+/* .joinshape {
  	background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -2067,9 +2092,9 @@ section {
   transition: all 1s ease-in-out;
   width: 1300px;
   z-index: 5;
-}
+} */
 
-@keyframes morph {
+/* @keyframes morph {
   0% {
 			border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
 			background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
@@ -2084,7 +2109,7 @@ section {
 		border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
 		background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
 	} 
-}
+} */
 
 
 /*--------------------------------------------------------------
