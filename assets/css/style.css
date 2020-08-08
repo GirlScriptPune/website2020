@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #FF4500;
+  border: 6px solid #08083C;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: #FC6600;
+  background: #F200D3;
   z-index: 997;
   padding: 0px 0;
   border-bottom: 1px solid #e6f2fb;
@@ -653,7 +653,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -672,12 +672,12 @@ h1, h2, h3, h4, h5, h6 {
   margin bottom: 50px;
   font-weight: 500;
   line-height: 72px;
-  color: #fff;
+  color: #F200DE;
   font-family: "Poppins", sans-serif;
 }
 
 #hero h2 {
-  color: #FC6600;
+  color: #F200DE;
   transition: all 0.3s ease-in-out;
   margin: 10px 0 0 0;
   font-size: 22px;
