@@ -163,10 +163,11 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu ul {
+.nav-menu ul{
   margin: 0;
   padding: 0;
   list-style: none;
+  overflow-x: hidden;
 }
 
 .nav-menu > ul {
@@ -187,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -206,6 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 20px rgba(18, 66, 101, 0.1);
   transition: 0.3s;
   border-radius: 5px;
+  overflow-x: hidden;
 }
 
 .nav-menu .drop-down:hover > ul {
@@ -290,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .get-started-btn {
     margin: 0 48px 0 0;
     padding: 5px 18px 6px 18px;
@@ -1063,6 +1066,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 .about .content ul li {
@@ -1085,7 +1089,12 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  text-align: center;
 }
+
+
+
+
 
 .about .content .btn-learn-more {
   font-family: "Raleway", sans-serif;
@@ -1100,8 +1109,9 @@ section {
   color: #2487ce;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  margin-top: 6px;
+  margin-top: 0px;
   border: 2px solid #2487ce;
+  text-align: center;
 }
 
 .about .content .btn-learn-more:hover {
