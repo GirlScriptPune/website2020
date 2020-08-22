@@ -2063,7 +2063,7 @@ section {
 }
 
 #join_us{
-  padding: 30px;
+  padding: 30px 30px 70px 30px;
 }
 
 .join-us{
@@ -2211,14 +2211,22 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background-color: #08083C;
+}
+
+.contact .section-title h2{
+  color: #E9E9ED;
+}
+
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #08083C;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #E9E9ED;
   float: left;
   width: 44px;
   height: 44px;
@@ -2235,14 +2243,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #124265;
+  color: #E9E9ED;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #217bbc;
+  color: #E9E9ED;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -2251,12 +2259,12 @@ section {
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #2487ce;
-  color: #fff;
+  color: #E9E9ED;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #e9e9e9;
 }
 
 .contact .php-email-form .form-group {
