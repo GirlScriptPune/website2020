@@ -328,9 +328,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   left: 15px;
+  height: 300px;
   z-index: 9999;
-  overflow-y: auto;
-  background: #fff;
+  /* overflow-y: auto; */
+  background: #020228;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -347,14 +348,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #124265;
+  color: #E9E9ED;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: rgb(218, 101, 12);
+  color: #E9E9ED;
   text-decoration: none;
 }
 
@@ -393,6 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(10, 38, 58, 0.6);
   overflow: hidden;
   display: none;
+  
   transition: ease-in-out 0.2s;
 }
 
