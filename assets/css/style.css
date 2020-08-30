@@ -2072,7 +2072,7 @@ section {
   height: 100;
   width: 200;
   background-color: #08083C;
-  padding: 30px;
+  padding: 100px;
 }
 
 .joincontainer {
@@ -2096,6 +2096,8 @@ section {
 
 .joinshape p{
   color: #E9E9ED;
+  padding: 40px;
+  letter-spacing: 1px;
 }
 
 .btn{
@@ -2260,7 +2262,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #E9E9ED;
   color: #E9E9ED;
 }
 
